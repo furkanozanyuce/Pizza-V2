@@ -1,34 +1,89 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Switch, Route } from 'react-router-dom'
+
+import MainForm from './MainForm'
+import MainPage from './MainPage'
+import SuccessPage from './SuccessPage'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './style.css'
+import './reset.css'
+
+//malzemeler
+const extras = [{
+  value: "pepperoni",
+  label: "Pepperoni"
+}, {
+  value: "sosis",
+  label: "Sosis"
+}, {
+  value: "kanadaJambonu",
+  label: "Kanada Jambonu"
+}, {
+  value: "tavukIzgara",
+  label: "Tavuk Izgara"
+}, {
+  value: "sogan",
+  label: "Soğan"
+}, {
+  value: "domates",
+  label: "Domates"
+}, {
+  value: "misir",
+  label: "Mısır"
+}, {
+  value: "sucuk",
+  label: "Sucuk"
+}, {
+  value: "jalepeno",
+  label: "Jalepeno"
+}, {
+  value: "sarimsak",
+  label: "Sarımsak"
+}, {
+  value: "biber",
+  label: "Biber"
+}, {
+  value: "zeytin",
+  label: "Zeytin"
+}, {
+  value: "ananas",
+  label: "Ananas"
+}, {
+  value: "kabak",
+  label: "Kabak"
+}, {
+  value: "peynir",
+  label: "Peynir"
+}
+];
+
+//hamur
+const initalHamur = [
+  {name: "İnce"},
+  {name: "Normal"},
+  {name: "Kalın"}
+]
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [orderData, setOrderData] = useState(null);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <>
+        <Switch>
+          <Route exact path="/">
+            <MainPage />
+          </Route>
+          <Route path="/orderpage">
+            <MainForm setOrderData={setOrderData} extras={extras} initalHamur={initalHamur} />
+          </Route>
+          <Route path="/successpage">
+            <SuccessPage orderData={orderData} extras={extras} initalHamur={initalHamur} />
+          </Route>
+        </Switch>
+      </>
   )
 }
 

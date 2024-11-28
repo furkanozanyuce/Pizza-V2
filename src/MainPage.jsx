@@ -3,6 +3,7 @@ import './reset.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom'
 import FormBottom from './components/FormBottom';
+import logo from "../Assets/Iteration-1-assets/logo.svg"
 
 function MainPage() {
 
@@ -10,7 +11,7 @@ function MainPage() {
         <>
         <div className='main-page'>
             <div className='h1-main'>
-                <img src='/Assets/Iteration-1-assets/logo.svg'></img>
+                <img src={logo}></img>
             </div>
             <div>
                 <div className='main-page-h1'>

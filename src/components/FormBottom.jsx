@@ -5,6 +5,11 @@ import icon3 from "../../Assets/Iteration-2-aseets/icons/3.svg"
 import icon4 from "../../Assets/Iteration-2-aseets/icons/4.svg"
 import icon5 from "../../Assets/Iteration-2-aseets/icons/5.svg"
 import icon6 from "../../Assets/Iteration-2-aseets/icons/6.svg"
+import kart1 from "../../Assets/Iteration-2-aseets/cta/kart-1.png"
+import kart2 from "../../Assets/Iteration-2-aseets/cta/kart-2.png"
+import kart3 from "../../Assets/Iteration-2-aseets/cta/kart-3.png"
+
+
 import {
     Form,
     FormGroup,
@@ -61,7 +66,7 @@ function FormBottom() {
       <div className='cards'>
         <div className='card1'>
             <div>
-                <img src="Assets/Iteration-2-aseets/cta/kart-1.png"/>
+                <img src={kart1}/>
             </div>
             <div className='card1-contains'>
                 <h2>Özel</h2>
@@ -75,7 +80,7 @@ function FormBottom() {
         <div className='card2-container'>
             <div className='card2'>
                 <div>
-                    <img src="Assets/Iteration-2-aseets/cta/kart-2.png"/>
+                    <img src={kart2}/>
                 </div>
                 <div className='card2-contains'>
                     <h2>Hackathlon</h2>
@@ -87,7 +92,7 @@ function FormBottom() {
             </div>
             <div className='card3'>
                 <div>
-                    <img src="Assets/Iteration-2-aseets/cta/kart-3.png"/>
+                    <img src={kart3}/>
                 </div>
                 <div className='card3-contains'>
                     <h2>Çoooook hızlı</h2>

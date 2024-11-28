@@ -1,6 +1,7 @@
 import './style.css';
 import './reset.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from "../Assets/Iteration-1-assets/logo.svg"
 
 function SuccessPage({orderData, extras, initalHamur}) {
 
@@ -34,7 +35,7 @@ function SuccessPage({orderData, extras, initalHamur}) {
       <>
         <div className='success-page'>
             <div className='h1-main2'>
-                <img src='/Assets/Iteration-1-assets/logo.svg'></img>
+                <img src={logo}></img>
             </div>
             <div className='success-page-h1'>
                 <p className='p1'>lezzetin yolda</p>

@@ -13,17 +13,17 @@ import {
 import { useHistory } from 'react-router-dom';
 import axios from 'axios';
 import Header from './components/Header';
-import logoFooter from "../../Assets/Iteration-2-aseets/footer/logo-footer.svg"
-import icons1 from "../../Assets/Iteration-2-aseets/footer/icons/icon-1.png"
-import icons2 from "../../Assets/Iteration-2-aseets/footer/icons/icon-2.png"
-import icons3 from "../../Assets/Iteration-2-aseets/footer/icons/icon-3.png"
-import li0 from "../../Assets/Iteration-2-aseets/footer/insta/li-0.png"
-import li1 from "../../Assets/Iteration-2-aseets/footer/insta/li-1.png"
-import li2 from "../../Assets/Iteration-2-aseets/footer/insta/li-2.png"
-import li3 from "../../Assets/Iteration-2-aseets/footer/insta/li-3.png"
-import li4 from "../../Assets/Iteration-2-aseets/footer/insta/li-4.png"
-import li5 from "../../Assets/Iteration-2-aseets/footer/insta/li-5.png"
-import twit from "../../Assets/Iteration-2-aseets/footer/twitter.svg"
+import logoFooter from "../Assets/Iteration-2-aseets/footer/logo-footer.svg"
+import icons1 from "../Assets/Iteration-2-aseets/footer/icons/icon-1.png"
+import icons2 from "../Assets/Iteration-2-aseets/footer/icons/icon-2.png"
+import icons3 from "../Assets/Iteration-2-aseets/footer/icons/icon-3.png"
+import li0 from "../Assets/Iteration-2-aseets/footer/insta/li-0.png"
+import li1 from "../Assets/Iteration-2-aseets/footer/insta/li-1.png"
+import li2 from "../Assets/Iteration-2-aseets/footer/insta/li-2.png"
+import li3 from "../Assets/Iteration-2-aseets/footer/insta/li-3.png"
+import li4 from "../Assets/Iteration-2-aseets/footer/insta/li-4.png"
+import li5 from "../Assets/Iteration-2-aseets/footer/insta/li-5.png"
+import twit from "../Assets/Iteration-2-aseets/footer/twitter.svg"
 
 
 const initialData = {

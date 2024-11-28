@@ -8,6 +8,24 @@ import icon6 from "../../Assets/Iteration-2-aseets/icons/6.svg"
 import kart1 from "../../Assets/Iteration-2-aseets/cta/kart-1.png"
 import kart2 from "../../Assets/Iteration-2-aseets/cta/kart-2.png"
 import kart3 from "../../Assets/Iteration-2-aseets/cta/kart-3.png"
+import food1 from "../../Assets/Iteration-2-aseets/pictures/food-1.png"
+import food2 from "../../Assets/Iteration-2-aseets/pictures/food-2.png"
+import food3 from "../../Assets/Iteration-2-aseets/pictures/food-3.png"
+import logoFooter from "../../Assets/Iteration-2-aseets/footer/logo-footer.svg"
+import icons1 from "../../Assets/Iteration-2-aseets/footer/icons/icon-1.png"
+import icons2 from "../../Assets/Iteration-2-aseets/footer/icons/icon-2.png"
+import icons3 from "../../Assets/Iteration-2-aseets/footer/icons/icon-3.png"
+import li0 from "../../Assets/Iteration-2-aseets/footer/insta/li-0.png"
+import li1 from "../../Assets/Iteration-2-aseets/footer/insta/li-1.png"
+import li2 from "../../Assets/Iteration-2-aseets/footer/insta/li-2.png"
+import li3 from "../../Assets/Iteration-2-aseets/footer/insta/li-3.png"
+import li4 from "../../Assets/Iteration-2-aseets/footer/insta/li-4.png"
+import li5 from "../../Assets/Iteration-2-aseets/footer/insta/li-5.png"
+import twit from "../../Assets/Iteration-2-aseets/footer/twitter.svg"
+
+
+
+
 
 
 import {
@@ -150,7 +168,7 @@ function FormBottom() {
       <div className='bottom-section2'>
         <div className='foods'>
             <div className='food'>
-                <img src="Assets/Iteration-2-aseets/pictures/food-1.png"/>
+                <img src={food1}/>
                 <div>
                     <p><strong>Terminal Pizza</strong></p>
                     <div>
@@ -163,7 +181,7 @@ function FormBottom() {
                 </div>
             </div>
             <div className='food'>
-                <img src="Assets/Iteration-2-aseets/pictures/food-2.png"/>
+                <img src={food2}/>
                 <div>
                     <p><strong>Position Absolute Acı Pizza</strong></p>
                     <div>
@@ -176,7 +194,7 @@ function FormBottom() {
                 </div>
             </div>
             <div className='food'>
-                <img src="Assets/Iteration-2-aseets/pictures/food-3.png"/>
+                <img src={food3}/>
                 <div>
                     <p><strong>useEffect Tavuklu Burger</strong></p>
                     <div>
@@ -193,19 +211,19 @@ function FormBottom() {
       <footer>
         <div className='footer-content'>
             <div className='left-side'>
-                <img className='wer' src="Assets/Iteration-2-aseets/footer/logo-footer.svg"/>
+                <img className='wer' src={logoFooter}/>
                 <div className='ul-list'>
                     <ul>
                         <li>
-                            <img src="Assets/Iteration-2-aseets/footer/icons/icon-1.png"/>
+                            <img src={icons1}/>
                             341 Londonderry Road, Istanbul Türkiye
                         </li>
                         <li>
-                            <img src="Assets/Iteration-2-aseets/footer/icons/icon-2.png"/>
+                            <img src={icons2}/>
                             aciktim@teknolojikyemekler.com
                         </li>
                         <li>
-                            <img src="Assets/Iteration-2-aseets/footer/icons/icon-3.png"/>
+                            <img src={icons3}/>
                             +90 216 123 45 67
                         </li>
                     </ul>
@@ -225,18 +243,18 @@ function FormBottom() {
             <div className='right-side'>
                 <p className='footer-titles'>Instagram</p>
                 <div className='images'>
-                    <img src="Assets/Iteration-2-aseets/footer/insta/li-0.png"/>
-                    <img src="Assets/Iteration-2-aseets/footer/insta/li-1.png"/>
-                    <img src="Assets/Iteration-2-aseets/footer/insta/li-2.png"/>
-                    <img src="Assets/Iteration-2-aseets/footer/insta/li-3.png"/>
-                    <img src="Assets/Iteration-2-aseets/footer/insta/li-4.png"/>
-                    <img src="Assets/Iteration-2-aseets/footer/insta/li-5.png"/>
+                    <img src={li0}/>
+                    <img src={li1}/>
+                    <img src={li2}/>
+                    <img src={li3}/>
+                    <img src={li4}/>
+                    <img src={li5}/>
                 </div>
             </div>
         </div>
         <div className='end'>
             <p>© 2023 Teknolojik Yemekler.</p>
-            <img src="Assets/Iteration-2-aseets/footer/twitter.svg"/>
+            <img src={twit}/>
         </div>
       </footer>
     </>

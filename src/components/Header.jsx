@@ -1,5 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import '../style.css';
+import logo from "../../Assets/Iteration-1-assets/logo.svg"
+import banner from "../../Assets/Iteration-2-aseets/pictures/form-banner.png"
 
 
 function Header() {
@@ -8,10 +10,10 @@ function Header() {
       <>
         <div className='main-main'>
           <div className='h1-main'>
-            <img src='/Assets/Iteration-1-assets/logo.svg'></img>
+            <img src={logo}></img>
           </div>
           <div className='color-beige'>
-          <img src="Assets/Iteration-2-aseets/pictures/form-banner.png"/>
+          <img src={banner}/>
           <div className='h1-content'>
             <div className='nav-css'>
             <NavLink exact to="/" activeClassName="selected" className="p-secondary non-selected">

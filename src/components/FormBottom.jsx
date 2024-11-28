@@ -1,4 +1,10 @@
 import '../style.css';
+import icon1 from "../../Assets/Iteration-2-aseets/icons/1.svg"
+import icon2 from "../../Assets/Iteration-2-aseets/icons/2.svg"
+import icon3 from "../../Assets/Iteration-2-aseets/icons/3.svg"
+import icon4 from "../../Assets/Iteration-2-aseets/icons/4.svg"
+import icon5 from "../../Assets/Iteration-2-aseets/icons/5.svg"
+import icon6 from "../../Assets/Iteration-2-aseets/icons/6.svg"
 import {
     Form,
     FormGroup,
@@ -16,37 +22,37 @@ function FormBottom() {
       <div className='buttons'>
         <Button color='white' className='primary-button food-button'>
             <div className='abc'>
-            <img src="Assets/Iteration-2-aseets/icons/1.svg"/>
+            <img src={icon1}/>
             <p className='button-p'>YENİ! Kore</p> 
             </div>         
         </Button>
         <Button color='white' className='primary-button food-button'>
         <div className='abc'>
-            <img src="Assets/Iteration-2-aseets/icons/2.svg"/>
+            <img src={icon2}/>
             <p className='button-p'>Pizza </p> 
             </div>           
         </Button>
         <Button color='white' className='primary-button food-button'>
         <div className='abc'>
-            <img src="Assets/Iteration-2-aseets/icons/3.svg"/>
+            <img src={icon3}/>
             <p className='button-p'>Burger</p> 
             </div>         
         </Button>
         <Button color='white' className='primary-button food-button'>
         <div className='abc'>
-            <img src="Assets/Iteration-2-aseets/icons/4.svg"/>
+            <img src={icon4}/>
             <p className='button-p'>Kızatmalar</p> 
             </div>      
         </Button>
         <Button color='white' className='primary-button food-button'>
         <div className='abc'>
-            <img src="Assets/Iteration-2-aseets/icons/5.svg"/>
+            <img src={icon5}/>
             <p className='button-p'>Fast Food</p> 
             </div>          
         </Button>
         <Button color='white' className='primary-button food-button'>
         <div className='abc'>
-            <img src="Assets/Iteration-2-aseets/icons/6.svg"/>
+            <img src={icon6}/>
             <p className='button-p'>Gazlı İçecek</p>  
             </div>         
         </Button>
@@ -100,37 +106,37 @@ function FormBottom() {
         <div className='buttons2'>
         <Button color='white' className='primary-button food-button'>
             <div className='abc def'>
-            <img src="Assets/Iteration-2-aseets/icons/1.svg"/>
+            <img src={icon1}/>
             <p className='button-p'>Ramen</p> 
             </div>         
         </Button>
         <Button color='white' className='primary-button food-button'>
         <div className='abc def'>
-            <img src="Assets/Iteration-2-aseets/icons/2.svg"/>
+            <img src={icon2}/>
             <p className='button-p'>Pizza </p> 
             </div>           
         </Button>
         <Button color='white' className='primary-button food-button'>
         <div className='abc def'>
-            <img src="Assets/Iteration-2-aseets/icons/3.svg"/>
+            <img src={icon3}/>
             <p className='button-p'>Burger</p> 
             </div>         
         </Button>
         <Button color='white' className='primary-button food-button'>
         <div className='abc def'>
-            <img src="Assets/Iteration-2-aseets/icons/4.svg"/>
+            <img src={icon4}/>
             <p className='button-p'>French Fries</p> 
             </div>      
         </Button>
         <Button color='white' className='primary-button food-button'>
         <div className='abc def'>
-            <img src="Assets/Iteration-2-aseets/icons/5.svg"/>
+            <img src={icon5}/>
             <p className='button-p'>Fast Food</p> 
             </div>          
         </Button>
         <Button color='white' className='primary-button food-button'>
         <div className='abc def'>
-            <img src="Assets/Iteration-2-aseets/icons/6.svg"/>
+            <img src={icon6}/>
             <p className='button-p'>Soft Drinks</p>  
             </div>         
         </Button>
